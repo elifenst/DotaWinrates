@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DotaWinrates"
+             x:Class="DotaWinrates.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Henry's dota winrate calc" 
+           HorizontalOptions="Center"
+           VerticalOptions="Start" 
+			   FontFamily="Comic Sans MS"/>
+		<Button x:Name="GetDataButton"
+				HorizontalOptions="Center"
+				Text="Retrieve Data"
+				Pressed="Button_Clicked"
+				/>
+	</StackLayout>
+
+</ContentPage>
